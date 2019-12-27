@@ -49,7 +49,8 @@ const pokemonMore = (
           rel="noopener noreferrer"
       >
           YouTube Game Trailer
-      </a>{" "} and over 50,000 downloads
+      </a>{" "}
+      and over 50,000 downloads
   </p>
 );
 
@@ -68,11 +69,11 @@ const projectsMore = (
 const extraCurric = (
   <p>
       President and Founder of the Dores for Support of Palestine
-      
+      <br>
       Secretary of the Middle-Eastern Student Association 
-      
+      <br>
       Web Developer and Vice-President for the Vanderbilt Tech and Society Club
-      
+      <br>
       Society Club First-Year Resident Advisor at North House
   </p>
 );
