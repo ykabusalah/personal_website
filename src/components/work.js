@@ -34,7 +34,14 @@ const pokemonMore = (
     Assisted Aaron Schmitz under pseudonym "DRaB" in Programming and Animations
     direction for Pokemon Ethereal Gates Utilized Ruby for programming events
     in-game and sprite animations Analyzed design drawings, animation render
-    flaws, and debugging issues Demo for Pokemon Ethereal Gates generated over
+    flaws, and debugging issues{" "}
+      <a
+          href="https://pokemonetherealgates.tumblr.com/download"
+          target="_blank"
+          rel="noopener noreferrer"
+      >
+          Demo for Pokemon Ethereal Gates generated over
+      </a>{" "}
     90,000 views on YouTube for game trailer and over 50,000 downloads
   </p>
 );
@@ -54,7 +61,7 @@ const projectsMore = (
 const extraCurric = (
   <p>
       President and Founder of the Dores for Support of Palestine
-      {"                                                         "}
+      
       Secretary of the Middle-Eastern Student Association 
       
       Web Developer and Vice-President for the Vanderbilt Tech and Society Club
