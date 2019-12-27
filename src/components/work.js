@@ -69,11 +69,11 @@ const projectsMore = (
 const extraCurric = (
   <p>
       President and Founder of the Dores for Support of Palestine
-      {"/n"}
+      
       Secretary of the Middle-Eastern Student Association 
-      {"/n"}
+
       Web Developer and Vice-President for the Vanderbilt Tech and Society Club
-      {"/n"}
+
       Society Club First-Year Resident Advisor at North House
   </p>
 );
