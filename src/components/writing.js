@@ -32,7 +32,7 @@ function Writing() {
           }
           title="Baro"
           abstract="Reflection series based on my life experiences and anything else that
-          interests me(Still in progress!)"
+          interests me"
           link={BaroLink}
         />
       }
