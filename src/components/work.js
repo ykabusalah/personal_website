@@ -42,7 +42,14 @@ const pokemonMore = (
       >
           Demo for Pokemon Ethereal Gates
       </a>{" "}
-      generated over 90,000 views on YouTube for game trailer and over 50,000 downloads
+      generated over 100,000 views on{" "}
+      <a
+          href="https://www.youtube.com/watch?v=mYhgTkedko0&t=1s"
+          target="_blank"
+          rel="noopener noreferrer"
+      >
+          YouTube Game Trailer
+      </a>{" "} and over 50,000 downloads
   </p>
 );
 
