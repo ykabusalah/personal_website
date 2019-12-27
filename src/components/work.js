@@ -28,8 +28,7 @@ const emmettMore = (
     Rights memorial sites around the state
   </p>
 );
-https://pokemonetherealgates.tumblr.com/download
-https://www.youtube.com/watch?v=mYhgTkedko0&t=1s
+
 const pokemonMore = (
   <p>
     Utilized Ruby for programming events
@@ -69,7 +68,7 @@ const projectsMore = (
 const extraCurric = (
   <p>
       President and Founder of the Dores for Support of Palestine
-      
+
       Secretary of the Middle-Eastern Student Association 
 
       Web Developer and Vice-President for the Vanderbilt Tech and Society Club
