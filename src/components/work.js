@@ -28,29 +28,29 @@ const emmettMore = (
     Rights memorial sites around the state
   </p>
 );
-
+https://pokemonetherealgates.tumblr.com/download
+https://www.youtube.com/watch?v=mYhgTkedko0&t=1s
 const pokemonMore = (
   <p>
-    Assisted Aaron Schmitz under pseudonym "DRaB" in Programming and Animations
-    direction for Pokemon Ethereal Gates Utilized Ruby for programming events
-    in-game and sprite animations Analyzed design drawings, animation render
-    flaws, and debugging issues{" "}
-      <a
-          href="https://pokemonetherealgates.tumblr.com/download"
-          target="_blank"
-          rel="noopener noreferrer"
-      >
-          Demo for Pokemon Ethereal Gates
-      </a>{" "}
-      generated over 100,000 views on{" "}
+    Utilized Ruby for programming events
+      in-game and sprite animations; Analyzed design drawings, animation render
+    flaws, and debugging issues; Aided in design process for various Pokemon;{" "}
       <a
           href="https://www.youtube.com/watch?v=mYhgTkedko0&t=1s"
           target="_blank"
           rel="noopener noreferrer"
       >
-          YouTube Game Trailer
+          The Trailer for Pokemon Ethereal Gates
       </a>{" "}
-      and over 50,000 downloads
+      generated over 100,000 views on YouTube and {" "}
+      <a
+          href="https://pokemonetherealgates.tumblr.com/download"
+          target="_blank"
+          rel="noopener noreferrer"
+      >
+          the Downloadable Demo
+      </a>{" "}
+      had 55,000 downloads as of December 2019.
   </p>
 );
 
@@ -69,11 +69,11 @@ const projectsMore = (
 const extraCurric = (
   <p>
       President and Founder of the Dores for Support of Palestine
-      <br>
+      {"/n"}
       Secretary of the Middle-Eastern Student Association 
-      <br>
+      {"/n"}
       Web Developer and Vice-President for the Vanderbilt Tech and Society Club
-      <br>
+      {"/n"}
       Society Club First-Year Resident Advisor at North House
   </p>
 );
