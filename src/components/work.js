@@ -41,21 +41,25 @@ const pokemonMore = (
 
 const projectsMore = (
   <p>
-    Duis sed finibus nulla. Nam fermentum non massa vel sollicitudin. Aenean
-    dictum, diam vel consequat iaculis, nunc odio scelerisque magna, vehicula
-    pulvinar ex nisl et mauris. Etiam ullamcorper congue accumsan. Nullam
-    consequat erat sed ex tincidunt, ac vehicula mi venenatis. Donec consectetur
-    nulla et mauris volutpat faucibus. Praesent faucibus rhoncus risus, nec
-    feugiat magna imperdiet vitae. Nullam pharetra convallis nisi non semper.
-    Donec pretium eleifend rutrum.
+    {/*Duis sed finibus nulla. Nam fermentum non massa vel sollicitudin. Aenean*/}
+    {/*dictum, diam vel consequat iaculis, nunc odio scelerisque magna, vehicula*/}
+    {/*pulvinar ex nisl et mauris. Etiam ullamcorper congue accumsan. Nullam*/}
+    {/*consequat erat sed ex tincidunt, ac vehicula mi venenatis. Donec consectetur*/}
+    {/*nulla et mauris volutpat faucibus. Praesent faucibus rhoncus risus, nec*/}
+    {/*feugiat magna imperdiet vitae. Nullam pharetra convallis nisi non semper.*/}
+    {/*Donec pretium eleifend rutrum.*/}
   </p>
 );
 
 const extraCurric = (
   <p>
-    President and Founder of the Dores for Support of Palestine Secretary of the
-    Middle-Eastern Student Association Web Developer for the Vanderbilt Tech and
-    Society Club First-Year Resident Advisor at North House
+      President and Founder of the Dores for Support of Palestine
+      
+      Secretary of the Middle-Eastern Student Association 
+      
+      Web Developer and Vice-President for the Vanderbilt Tech and Society Club
+      
+      Society Club First-Year Resident Advisor at North House
   </p>
 );
 
@@ -85,15 +89,15 @@ function Work() {
             more={pokemonMore}
           />
           <Project
-            logo={FutureLogo()}
-            title="Projects of the Future"
-            abstract="Playing around with AWS, Splunk, and Unity"
-          />
-          <Project
             logo={ExtraCurricLogo()}
             title="Extracurriculars"
             abstract="A Few of my Responsibilities Around Campus"
             more={extraCurric}
+          />
+          <Project
+              logo={FutureLogo()}
+              title="Projects of the Future"
+              abstract="Playing around with AWS, Splunk, and Unity"
           />
         </Fragment>
       }
