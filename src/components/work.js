@@ -40,9 +40,9 @@ const pokemonMore = (
           target="_blank"
           rel="noopener noreferrer"
       >
-          Demo for Pokemon Ethereal Gates generated over
+          Demo for Pokemon Ethereal Gates
       </a>{" "}
-    90,000 views on YouTube for game trailer and over 50,000 downloads
+      generated over 90,000 views on YouTube for game trailer and over 50,000 downloads
   </p>
 );
 
