@@ -11,7 +11,7 @@ import HadoopLogo from "../img/hadooplogo";
 import FutureLogo from "../img/futurelogo";
 import EmmettLogo from "../img/emmettlogo";
 
-const hadoopMore = <p>Some of my commits include:</p>;
+const hadoopMore = <p>Have made commits for various issues on JIRA</p>;
 
 const emmettMore = (
   <p>
