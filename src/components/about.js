@@ -73,7 +73,7 @@ function About() {
         <Fragment>
           <Big>
             Hey! My name is Yousef Abu-Salah. I'm a sophomore at Vanderbilt
-            University, and I'm majoring in Computer Science and Education.
+            University, and I'm majoring in Computer Science, Public Policy, and Education.
           </Big>
           <p>
             Exploring the intersections between these disciplines, as well as
@@ -85,7 +85,7 @@ function About() {
             principles.
           </p>
           <p style={{ marginBottom: 0 }}>
-            Other than that, I love playing with animals, animation of all
+            Other than that, I love playing with animals, art (specifically animation!) of all
             kinds, and trying my hardest to be a somewhat healthy person.
           </p>
         </Fragment>
