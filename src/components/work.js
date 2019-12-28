@@ -15,7 +15,7 @@ const hadoopMore = <p>Have made commits for various issues on JIRA</p>;
 
 const emmettMore = (
   <p>
-    Designed various aspects of the{" "}
+    - Designed various aspects of the{" "}
     <a
       href="https://www.emmett-till.org/?fbclid=IwAR3Km-uo9YkONG1oqiKibQYNxe44BkrqLLpZN_JjPhu8bG6cdc4C86Nsv5Q"
       target="_blank"
@@ -23,7 +23,8 @@ const emmettMore = (
     >
       official website
     </a>{" "}
-    through the use of Javascript Currently working on acquiring funding for an
+    through the use of Javascript
+      - Currently working on acquiring funding for an
     app project centered around activism and exploration of the various Civil
     Rights memorial sites around the state
   </p>
@@ -31,15 +32,17 @@ const emmettMore = (
 
 const pokemonMore = (
   <p>
-    Utilized Ruby for programming events
-      in-game and sprite animations; Analyzed design drawings, animation render
-    flaws, and debugging issues; Aided in design process for various Pokemon;{" "}
+    - Utilized Ruby for programming events
+      in-game and sprite animations
+      - Analyzed design drawings, animation render
+    flaws, and debugging issues
+      - Aided in design process for various Pokemon;{" "}
       <a
           href="https://www.youtube.com/watch?v=mYhgTkedko0&t=1s"
           target="_blank"
           rel="noopener noreferrer"
       >
-          The Trailer for Pokemon Ethereal Gates
+          - The Trailer for Pokemon Ethereal Gates
       </a>{" "}
       generated over 100,000 views on YouTube and {" "}
       <a
