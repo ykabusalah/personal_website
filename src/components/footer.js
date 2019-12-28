@@ -21,7 +21,7 @@ function Footer() {
       <FooterText>
         This page is open source. Check it out on&nbsp;
         <a href="https://github.com/ykabusalah/personal_website">Github!</a>
-        <br />Yousef Abu-Salah 2019&nbsp;&nbsp;&nbsp;
+        <br />Yousef Abu-Salah 2020&nbsp;&nbsp;&nbsp;
       </FooterText>
     </Section>
   )
