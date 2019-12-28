@@ -12,7 +12,7 @@ function NotFoundPage() {
     <GlobalWrapper>
       <Div>
         <h1>404</h1>
-        <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
+        <p>You just hit a route that doesn&#39;t exist. Sorry about that! </p>
         <Link to='/'>Back to Homepage</Link>
       </Div>
     </GlobalWrapper>
