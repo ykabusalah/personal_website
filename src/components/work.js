@@ -104,7 +104,7 @@ function Work() {
           <Project
             logo={ExtraCurricLogo()}
             title="Extracurriculars"
-            abstract="A Few of my Responsibilities Around Campus"
+            abstract="Club Involvement and Positions"
             more={extraCurric}
           />
           <Project

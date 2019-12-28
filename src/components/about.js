@@ -80,7 +80,7 @@ function About() {
             the technological future of the world, makes me happy!
           </p>
           <p>
-            Currently I'm designing a curriculum to target the growing gap in
+            Currently, I'm designing a curriculum to target the growing gap in
             Mississippi computer science education and exploring game design
             principles.
           </p>
