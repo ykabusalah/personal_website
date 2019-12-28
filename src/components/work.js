@@ -34,7 +34,7 @@ const emmettMore = (
 const pokemonMore = (
   <p>
     - Utilized Ruby for programming events
-      in-game and sprite animations
+      in-game and sprite animations<br/>
       - Analyzed design drawings, animation render
     flaws, and debugging issues
       - Aided in design process for various Pokemon;{" "}
