@@ -1,9 +1,10 @@
-import React from 'react'
-import styled from 'styled-components'
-import media from 'utils/media-queries'
-import { color, fontSize } from 'styles/theme'
+import React from "react";
+import styled from "styled-components";
+import media from "utils/media-queries";
+import { color, fontSize } from "styles/theme";
+import { withPrefix } from "gatsby";
 
-import Icon from 'components/icons'
+import Icon from "components/icons";
 
 const Div = styled.div`
   display: flex;
@@ -11,29 +12,29 @@ const Div = styled.div`
   flex-direction: row;
   flex: 0 0 auto;
   ${media.sm`
-    display: ${props => (props.article ? 'flex' : 'block')};
+    display: ${props => (props.article ? "flex" : "block")};
   `};
   z-index: 10;
-  height: ${props => (props.article ? '74px' : '')};
+  height: ${props => (props.article ? "74px" : "")};
   ${media.xs`
     display: block;
     height: 112px;
   `}
-`
+`;
 
 const LogoWrapper = styled.div`
   padding: 24px 0 24px 24px;
   ${media.sm`
-    padding: ${props => (props.article ? '24px 0 24px 24px' : '24px 0 0 0')};
+    padding: ${props => (props.article ? "24px 0 24px 24px" : "24px 0 0 0")};
   `};
   ${media.xs`
     padding: 24px 0 0 0;
   `}
-`
+`;
 
 const NameLink = styled.a`
   text-decoration: none;
-`
+`;
 
 const Name = styled.h1`
   white-space: nowrap;
@@ -45,7 +46,7 @@ const Name = styled.h1`
     text-align: center;
     font-size: ${fontSize.f7};
   `};
-`
+`;
 
 const NameArticle = styled.div`
   white-space: nowrap;
@@ -58,7 +59,7 @@ const NameArticle = styled.div`
   ${media.xs`
     text-align: center;
   `};
-`
+`;
 
 const Role = styled.div`
   color: ${color.grey700};
@@ -69,7 +70,7 @@ const Role = styled.div`
     text-align: center;
     font-size: ${fontSize.f6};
   `};
-`
+`;
 
 const SocialLinks = styled.div`
   display: flex;
@@ -77,14 +78,14 @@ const SocialLinks = styled.div`
   flex-wrap: nowrap;
   padding: 15px 24px 0 24px;
   ${media.sm`
-    padding: ${props => (props.article ? '15px 12px 0 8px' : '4px 0 0 0')};
+    padding: ${props => (props.article ? "15px 12px 0 8px" : "4px 0 0 0")};
     grid-column-gap: 0;
   `}
   ${media.xs`
     padding: 0;
   `}
   justify-content: center;
-`
+`;
 
 const SocialLink = styled.a`
   display: flex;
@@ -107,7 +108,7 @@ const SocialLink = styled.a`
   &:visited {
     color: ${color.grey900};
   }
-`
+`;
 
 export const SvgWrapper = styled.div`
   display: flex;
@@ -117,56 +118,56 @@ export const SvgWrapper = styled.div`
   min-height: 24px;
   color: inherit;
   background: inherit;
-`
+`;
 
 export const InlineSvg = styled.svg`
   height: 24px;
   width: 24px;
   color: inherit;
   fill: currentColor;
-`
+`;
 
 const Tooltip = styled.div`
   padding: 2px 24px 0 24px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  opacity: ${props => (props.visible ? '1' : '0')};
+  opacity: ${props => (props.visible ? "1" : "0")};
   transition: opacity 300ms;
   ${media.sm`
     justify-content: center;
     padding-top: 6px;
   `}
-`
+`;
 
 const TooltipIcon = styled.div`
   transform: rotate(270deg);
   margin-left: 8px;
-`
+`;
 
-const TooltipText = styled.div``
+const TooltipText = styled.div``;
 
 class Header extends React.Component {
   constructor(props) {
-    super(props)
+    super(props);
     this.state = {
       tooltipIsVisible: false,
-      tooltipText: '',
-    }
+      tooltipText: ""
+    };
   }
 
   showTooltip = tooltipText => {
     this.setState({
       tooltipIsVisible: true,
-      tooltipText: tooltipText,
-    })
-  }
+      tooltipText: tooltipText
+    });
+  };
 
   hideTooltip = () => {
     this.setState({
-      tooltipIsVisible: false,
-    })
-  }
+      tooltipIsVisible: false
+    });
+  };
   render() {
     return (
       <Div article={this.props.article}>
@@ -186,10 +187,10 @@ class Header extends React.Component {
         <div>
           <SocialLinks article={this.props.article}>
             <SocialLink
-                href="/resume.pdf"
-                target="blank"
-                onMouseOver={() => this.showTooltip('Resume')}
-                onMouseLeave={this.hideTooltip}
+              href={withPrefix("/Resume.pdf")}
+              target="blank"
+              onMouseOver={() => this.showTooltip("Resume")}
+              onMouseLeave={this.hideTooltip}
             >
               <SvgWrapper>
                 <InlineSvg>
@@ -199,7 +200,7 @@ class Header extends React.Component {
             </SocialLink>
             <SocialLink
               href={`mailto:ykabusalah@gmail.com`}
-              onMouseOver={() => this.showTooltip('Mail')}
+              onMouseOver={() => this.showTooltip("Mail")}
               onMouseLeave={this.hideTooltip}
             >
               <SvgWrapper>
@@ -211,7 +212,7 @@ class Header extends React.Component {
             <SocialLink
               href="https://github.com/ykabusalah"
               target="blank"
-              onMouseOver={() => this.showTooltip('GitHub')}
+              onMouseOver={() => this.showTooltip("GitHub")}
               onMouseLeave={this.hideTooltip}
             >
               <SvgWrapper>
@@ -223,7 +224,7 @@ class Header extends React.Component {
             <SocialLink
               href="https://www.linkedin.com/in/yousefabusalah/"
               target="blank"
-              onMouseOver={() => this.showTooltip('LinkedIn')}
+              onMouseOver={() => this.showTooltip("LinkedIn")}
               onMouseLeave={this.hideTooltip}
             >
               <SvgWrapper>
@@ -246,8 +247,8 @@ class Header extends React.Component {
           )}
         </div>
       </Div>
-    )
+    );
   }
 }
 
-export default Header
+export default Header;
