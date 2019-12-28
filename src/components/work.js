@@ -51,7 +51,7 @@ const pokemonMore = (
       >
           the Downloadable Demo
       </a>{" "}
-      had 55,000 downloads as of December 2019.
+      had 55,000 downloads as of December 2019
   </p>
 );
 
