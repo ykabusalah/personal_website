@@ -24,6 +24,7 @@ const emmettMore = (
       official website
     </a>{" "}
     through the use of Javascript
+
       - Currently working on acquiring funding for an
     app project centered around activism and exploration of the various Civil
     Rights memorial sites around the state
