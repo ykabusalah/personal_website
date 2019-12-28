@@ -35,7 +35,7 @@ const pokemonMore = (
       in-game and sprite animations<br/>
       - Analyzed design drawings, animation render
     flaws, and debugging issues<br/>
-      - Aided in design process for various Pokemon;{" "}
+      - Aided in design process for various Pokemon<br/>{" "}
       <a
           href="https://www.youtube.com/watch?v=mYhgTkedko0&t=1s"
           target="_blank"
