@@ -49,9 +49,7 @@ const MainLogo = styled.div`
   margin-top: -28px;
   ${media.md`
     margin-left: -28px;
-  `}
-  ${media.sm`
-    margin-bottom: -20px;
+    margin-bottom: 20px;
   `}
 `;
 
