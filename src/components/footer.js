@@ -20,7 +20,7 @@ function Footer() {
     <Section>
       <FooterText>
         This page is open source. Check it out on&nbsp;
-        <a href="https://github.com/ykabusalah">Github!</a>
+        <a href="https://github.com/ykabusalah/personal_website">Github!</a>
         <br />Yousef Abu-Salah 2019&nbsp;&nbsp;&nbsp;
       </FooterText>
     </Section>
