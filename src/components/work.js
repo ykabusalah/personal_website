@@ -23,9 +23,7 @@ const emmettMore = (
     >
       official website
     </a>{" "}
-    through the use of Javascript
-
-      - Currently working on acquiring funding for an
+    through the use of Javascript <br/>- Currently working on acquiring funding for an
     app project centered around activism and exploration of the various Civil
     Rights memorial sites around the state
   </p>
@@ -36,7 +34,7 @@ const pokemonMore = (
     - Utilized Ruby for programming events
       in-game and sprite animations<br/>
       - Analyzed design drawings, animation render
-    flaws, and debugging issues
+    flaws, and debugging issues<br/>
       - Aided in design process for various Pokemon;{" "}
       <a
           href="https://www.youtube.com/watch?v=mYhgTkedko0&t=1s"
