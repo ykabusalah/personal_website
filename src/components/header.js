@@ -211,7 +211,7 @@ class Header extends React.Component {
             <SocialLink
               href="https://github.com/ykabusalah"
               target="blank"
-              onMouseOver={() => this.showTooltip('Github')}
+              onMouseOver={() => this.showTooltip('GitHub')}
               onMouseLeave={this.hideTooltip}
             >
               <SvgWrapper>
