@@ -72,7 +72,7 @@ function About() {
       rightColumn={
         <Fragment>
           <Big>
-            Hey! My name is Yousef Abu-Salah. I'm a sophomore at Vanderbilt
+            Hey! y name is Yousef Abu-Salah. I'm a sophomore at Vanderbilt
             University, and I'm majoring in Computer Science, International Relations, and Education.
           </Big>
           <p>
