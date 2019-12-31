@@ -81,8 +81,8 @@ function About() {
           </p>
           <p>
             Currently, I'm designing a curriculum to target the growing gap in
-            Mississippi computer science education and exploring game design
-            principles.
+            Mississippi computer science education and finally getting into
+            personal investing!
           </p>
           <p style={{ marginBottom: 0 }}>
             Other than that, I love playing with animals, art (specifically animation!) of all
