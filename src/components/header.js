@@ -222,7 +222,7 @@ class Header extends React.Component {
               </SvgWrapper>
             </SocialLink>
             <SocialLink
-              href="https://www.linkedin.com/in/yousefabusalah/"
+              href="https://www.linkedin.com/in/ykabusalah"
               target="blank"
               onMouseOver={() => this.showTooltip("LinkedIn")}
               onMouseLeave={this.hideTooltip}
