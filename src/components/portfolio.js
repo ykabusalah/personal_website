@@ -40,8 +40,8 @@ function Portfolio() {
         <Fragment>
           <Project
             logo="port_thumblr.png"
-            title="Thmblr"
-            abstract="Official Contributer (~5 commits)"
+            title="Perihelion Productions"
+            abstract="Pokemon and General Interface Designer"
             more={perihelionMore}
             srcType="image"
           />
