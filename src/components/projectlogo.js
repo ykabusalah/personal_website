@@ -42,7 +42,7 @@ function ProjectLogo(props) {
     return (
       <Image>
         {/* <Image1 src={props.children}/> */}
-        <img src={props.children} style={{width: '150px', maxHeight: '150px' }}></img>
+        <img src={props.children} style={{width: '120px', maxHeight: '120px' }}></img>
       </Image>
     );
   }
