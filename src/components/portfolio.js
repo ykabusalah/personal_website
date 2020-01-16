@@ -42,7 +42,6 @@ const perihelionMore = <p>Helped SirAquakip design the following Pokemon for the
         target="_blank"
         rel="noopener noreferrer"
     > Taggler
-
     </a>.
 </p>;
 
