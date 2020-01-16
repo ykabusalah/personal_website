@@ -13,7 +13,43 @@ const perihelionMore = <p>Helped SirAquakip design the following Pokemon for the
         rel="noopener noreferrer"
     > Gysteam
 
-    </a>, Magnut, Technut, Mechanut, Jinkai, Groufin, and Taggler.
+    </a>, {" "}<a
+        href="https://ethereal-gates.fandom.com/wiki/Magnut"
+        target="_blank"
+        rel="noopener noreferrer"
+    > Magnut
+
+    </a>, {" "}<a
+        href="https://ethereal-gates.fandom.com/wiki/Magnut"
+        target="_blank"
+        rel="noopener noreferrer"
+    > Magnut
+
+    </a>, {" "}<a
+        href="https://ethereal-gates.fandom.com/wiki/Magnut"
+        target="_blank"
+        rel="noopener noreferrer"
+    > Magnut
+
+    </a>, {" "}<a
+        href="https://ethereal-gates.fandom.com/wiki/Magnut"
+        target="_blank"
+        rel="noopener noreferrer"
+    > Magnut
+
+    </a>, {" "}<a
+        href="https://ethereal-gates.fandom.com/wiki/Magnut"
+        target="_blank"
+        rel="noopener noreferrer"
+    > Magnut
+
+    </a>, {" "}<a
+        href="https://ethereal-gates.fandom.com/wiki/Magnut"
+        target="_blank"
+        rel="noopener noreferrer"
+    > Magnut
+
+    </a>Technut, Mechanut, Jinkai, Groufin, and Taggler.
 </p>;
 
 const emmttMemory = (
