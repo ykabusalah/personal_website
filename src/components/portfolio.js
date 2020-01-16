@@ -7,10 +7,7 @@ import Project from "components/project";
 import PokemonLogo from "../img/pokemonlogo";
 
 const perihelionMore = <p>Designed the following Pokemon for the game's initial vision and demo:
-    
-
-
-
+    Barcush, Gysteam, Magnut, Technut, Mechanut, Jinkai, Groufin, and Taggler.
 </p>;
 
 const emmttMemory = (
