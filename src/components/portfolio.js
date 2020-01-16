@@ -6,7 +6,7 @@ import Project from "components/project";
 
 import PokemonLogo from "../img/pokemonlogo";
 
-const perihelionMore = <p>Helped SirAquakip design the following Pokemon for the game's initial vision and demo:
+const perihelionMore = <p>Aided in design of the following Pokemon for the PEG's initial vision and demo:
     {" "}<a
         href="https://ethereal-gates.fandom.com/wiki/Gysteam"
         target="_blank"
@@ -78,7 +78,7 @@ function Portfolio() {
           <Project
             logo="port_thumblr.png"
             title="Perihelion Productions"
-            abstract="Pokemon and General Interface Designer"
+            abstract="Pokemon and General Interface Designer for Pokemon Ethereal Gates"
             more={perihelionMore}
             srcType="image"
           />
