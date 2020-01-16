@@ -8,7 +8,7 @@ import PokemonLogo from "../img/pokemonlogo";
 
 const perihelionMore = <p>Helped SirAquakip design the following Pokemon for the game's initial vision and demo:
     {" "}<a
-        href="https://ethereal-gates.fandom.com/wiki/Barcush"
+        href="https://ethereal-gates.fandom.com/wiki/Gysteam"
         target="_blank"
         rel="noopener noreferrer"
     > Gysteam
