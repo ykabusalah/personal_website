@@ -10,24 +10,24 @@ const perihelionMore = <p>Have made commits for various issues on JIRA</p>;
 
 const emmttMemory = (
   <p>
-    - Designed various aspects of the{" "}
+    - Designed aspects of the graphic design of the{" "}
     <a
-      href="https://www.emmett-till.org/?fbclid=IwAR3Km-uo9YkONG1oqiKibQYNxe44BkrqLLpZN_JjPhu8bG6cdc4C86Nsv5Q"
+      href="https://tillapp.emmett-till.org/"
       target="_blank"
       rel="noopener noreferrer"
     >
-      official website
+      official Emmett Till Memory App
     </a>{" "}
-    through the use of Javascript <br />- Currently working on acquiring funding for an
-    app project centered around activism and exploration of the various Civil
-    Rights memorial sites around the state
+    through the use of C++ <br />- App takes users to the most important sites in the
+      Mississippi Delta and beyond while also providing expert-vetted narratives, access
+      to relevant archival documents, and a collection of historic and contemporary photographs.
   </p>
 );
 
 
 const websiteMore = (
   <p>
-    B
+    I built this website utilizing Gatsby and React. I utilized Ziet to deploy this website.
   </p>
 );
 
