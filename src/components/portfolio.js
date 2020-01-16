@@ -6,8 +6,14 @@ import Project from "components/project";
 
 import PokemonLogo from "../img/pokemonlogo";
 
-const perihelionMore = <p>Designed the following Pokemon for the game's initial vision and demo:
-    Barcush, Gysteam, Magnut, Technut, Mechanut, Jinkai, Groufin, and Taggler.
+const perihelionMore = <p>Helped SirAquakip design the following Pokemon for the game's initial vision and demo:
+    {" "}<a
+        href="https://ethereal-gates.fandom.com/wiki/Barcush"
+        target="_blank"
+        rel="noopener noreferrer"
+    > Gysteam
+
+    </a>, Magnut, Technut, Mechanut, Jinkai, Groufin, and Taggler.
 </p>;
 
 const emmttMemory = (
