@@ -63,7 +63,7 @@ function Project(props) {
           <Title>{props.title}</Title>
           <Abstract>{props.abstract}</Abstract>
           {props.link}
-          {props.more && <LearnMore more={props.more} />}
+          {props.more && <LearnMore more={props.more} moreText={props.moreText ? props.moreText : null} />}
         </Description>
       </ProjectWrapper>
     </>

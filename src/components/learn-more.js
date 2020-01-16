@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-const LearnMore = ({ more }) => {
+const LearnMore = ({ more, moreText }) => {
   const [showText, setShowText] = useState(false)
   if (showText) {
     return (
@@ -20,7 +20,7 @@ const LearnMore = ({ more }) => {
         style={{ cursor: 'pointer', userSelect: 'none', fontWeight: 600 }}
         onClick={() => setShowText(true)}
       >
-        Learn More...
+        { moreText ? moreText : "Learn More" }...
       </div>
     )
   }

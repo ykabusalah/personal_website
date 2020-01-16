@@ -1,14 +1,14 @@
 import React, { Fragment } from "react";
-import Link from "gatsby-link";
 
 import TwoColumns from "components/twoColumns";
 import SectionHeading from "components/sectionHeading";
 import Project from "components/project";
 
+import PokemonLogo from "../img/pokemonlogo";
 
-const hadoopMore = <p>Have made commits for various issues on JIRA</p>;
+const perihelionMore = <p>Have made commits for various issues on JIRA</p>;
 
-const emmettMore = (
+const emmttMemory = (
   <p>
     - Designed various aspects of the{" "}
     <a
@@ -25,6 +25,12 @@ const emmettMore = (
 );
 
 
+const websiteMore = (
+  <p>
+    websiteMore
+  </p>
+);
+
 function Portfolio() {
   return (
     <TwoColumns
@@ -36,21 +42,22 @@ function Portfolio() {
             logo="port_thumblr.png"
             title="Thmblr"
             abstract="Official Contributer (~5 commits)"
-            more={hadoopMore}
+            more={perihelionMore}
             srcType="image"
           />
           <Project
             logo="port_emmett_till.png"
             title="Emmett Till Interpretive Center"
             abstract="Web Development and Media Intern"
-            more={emmettMore}
+            more={emmttMemory}
             srcType="image"
           />
           <Project
             logo="port_self.png"
             title="Yousef Abu-Salah"
             abstract="My Portfolio Website"
-            more={emmettMore}
+            more={websiteMore}
+            moreText="Learn More"
             srcType="image"
           />
         </Fragment>
