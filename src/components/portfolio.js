@@ -47,8 +47,8 @@ function Portfolio() {
           />
           <Project
             logo="port_emmett_till.png"
-            title="Emmett Till Interpretive Center"
-            abstract="Web Development and Media Intern"
+            title="Emmett Till Memory Project"
+            abstract="Assistant Designer for Official App"
             more={emmttMemory}
             srcType="image"
           />
