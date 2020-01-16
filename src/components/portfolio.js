@@ -32,24 +32,18 @@ const perihelionMore = <p>Helped SirAquakip design the following Pokemon for the
     > Mechanut
 
     </a>, {" "}<a
-        href="https://ethereal-gates.fandom.com/wiki/Magnut"
+        href="https://ethereal-gates.fandom.com/wiki/Groufin"
         target="_blank"
         rel="noopener noreferrer"
-    > Magnut
+    > Groufin
 
     </a>, {" "}<a
-        href="https://ethereal-gates.fandom.com/wiki/Magnut"
+        href="https://ethereal-gates.fandom.com/wiki/Taggler"
         target="_blank"
         rel="noopener noreferrer"
-    > Magnut
+    > ddfddfd
 
-    </a>, {" "}<a
-        href="https://ethereal-gates.fandom.com/wiki/Magnut"
-        target="_blank"
-        rel="noopener noreferrer"
-    > Magnut
-
-    </a>Technut, Mechanut, Jinkai, Groufin, and Taggler.
+    </a>.
 </p>;
 
 const emmttMemory = (
