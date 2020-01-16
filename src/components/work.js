@@ -57,13 +57,7 @@ const pokemonMore = (
 
 const projectsMore = (
   <p>
-    {/*Duis sed finibus nulla. Nam fermentum non massa vel sollicitudin. Aenean*/}
-    {/*dictum, diam vel consequat iaculis, nunc odio scelerisque magna, vehicula*/}
-    {/*pulvinar ex nisl et mauris. Etiam ullamcorper congue accumsan. Nullam*/}
-    {/*consequat erat sed ex tincidunt, ac vehicula mi venenatis. Donec consectetur*/}
-    {/*nulla et mauris volutpat faucibus. Praesent faucibus rhoncus risus, nec*/}
-    {/*feugiat magna imperdiet vitae. Nullam pharetra convallis nisi non semper.*/}
-    {/*Donec pretium eleifend rutrum.*/}
+    {/*may include this section for projects of the future later on*/}
   </p>
 );
 
