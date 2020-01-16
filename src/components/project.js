@@ -57,7 +57,7 @@ function Project(props) {
   return (
     <>
       <ProjectWrapper>
-        {props.logo && <Logo>{props.logo}</Logo>}
+        {props.logo && <Logo srcType={props.srcType}>{props.logo}</Logo>}
         {props.mainLogo && <MainLogo> {props.mainLogo} </MainLogo>}
         <Description>
           <Title>{props.title}</Title>

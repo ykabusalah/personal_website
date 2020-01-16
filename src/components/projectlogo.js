@@ -1,8 +1,11 @@
-import React from 'react'
-import styled from 'styled-components'
-import media from 'utils/media-queries'
+import React from "react";
+import styled from "styled-components";
+import media from "utils/media-queries";
 
-const size = 150
+import { useStaticQuery, graphql } from "gatsby";
+import Img from "gatsby-image";
+
+const size = 150;
 
 const Image = styled.div`
   background: white;
@@ -17,21 +20,32 @@ const Image = styled.div`
   ${media.sm`
     margin-bottom: -20px;
   `}
-`
+`;
+
+
 
 function ProjectLogo(props) {
-  return (
-    <Image>
-      <svg
-        width={size}
-        height={size}
-        viewBox="0 0 120 120"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        {props.children}
-      </svg>
-    </Image>
-  )
+  if (!props.srcType || props.srcType === "svg") {
+    return (
+      <Image>
+        <svg
+          width={size}
+          height={size}
+          viewBox="0 0 120 120"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          {props.children}
+        </svg>
+      </Image>
+    );
+  } else {
+    return (
+      <Image>
+        {/* <Image1 src={props.children}/> */}
+        <img src={props.children} style={{width: '150px', maxHeight: '150px' }}></img>
+      </Image>
+    );
+  }
 }
 
-export default ProjectLogo
+export default ProjectLogo;
