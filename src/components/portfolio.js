@@ -55,7 +55,7 @@ function Portfolio() {
           <Project
             logo="port_self.png"
             title="My Personal Portfolio Website"
-            abstract="The Frontend, Backend, and Everything Else!"
+            abstract="The Front-End, Back-End, and Everything Else!"
             more={websiteMore}
             moreText="Learn More"
             srcType="image"
