@@ -64,7 +64,7 @@ const emmttMemory = (
 
 const websiteMore = (
   <p>
-    I built this website utilizing Gatsby and React. I utilized Ziet to deploy this website.
+    Built using Gatsby and React frameworks and deployed via Ziet
   </p>
 );
 
