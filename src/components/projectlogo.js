@@ -40,9 +40,10 @@ function ProjectLogo(props) {
     );
   } else {
     return (
-      <Image>
-        {/* <Image1 src={props.children}/> */}
-        <img src={props.children} style={{width: '120px', maxHeight: '120px' }}></img>
+      <Image          
+        width={size}
+        height={size}>
+        <img src={props.children} style={{width: '120px', maxHeight: '120px', marginTop: '30px' }}></img>
       </Image>
     );
   }

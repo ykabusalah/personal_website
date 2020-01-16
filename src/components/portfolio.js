@@ -50,6 +50,7 @@ function Portfolio() {
             logo="port_self.png"
             title="Yousef Abu-Salah"
             abstract="My Portfolio Website"
+            more={emmettMore}
             srcType="image"
           />
         </Fragment>
