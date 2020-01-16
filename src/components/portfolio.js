@@ -41,7 +41,7 @@ const perihelionMore = <p>Helped SirAquakip design the following Pokemon for the
         href="https://ethereal-gates.fandom.com/wiki/Taggler"
         target="_blank"
         rel="noopener noreferrer"
-    > ddfddfd
+    > Taggler
 
     </a>.
 </p>;
