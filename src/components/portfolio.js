@@ -54,8 +54,8 @@ function Portfolio() {
           />
           <Project
             logo="port_self.png"
-            title="Yousef Abu-Salah"
-            abstract="My Portfolio Website"
+            title="My Personal Portfolio Website"
+            abstract="The Frontend, Backend, and Everything Else!"
             more={websiteMore}
             moreText="Learn More"
             srcType="image"
