@@ -35,18 +35,23 @@ function Portfolio() {
           <Project
             logo="port_thumblr.png"
             title="Thmblr"
-            abstract="Description goes here"
-            // more={hadoopMore}
+            abstract="Official Contributer (~5 commits)"
+            more={hadoopMore}
             srcType="image"
           />
           <Project
             logo="port_emmett_till.png"
             title="Emmett Till Interpretive Center"
             abstract="Web Development and Media Intern"
-            // more={emmettMore}
+            more={emmettMore}
             srcType="image"
           />
-
+          <Project
+            logo="port_self.png"
+            title="Yousef Abu-Salah"
+            abstract="My Portfolio Website"
+            srcType="image"
+          />
         </Fragment>
       }
     />
