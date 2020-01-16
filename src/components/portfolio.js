@@ -6,7 +6,12 @@ import Project from "components/project";
 
 import PokemonLogo from "../img/pokemonlogo";
 
-const perihelionMore = <p>Have made commits for various issues on JIRA</p>;
+const perihelionMore = <p>Designed the following Pokemon for the game's initial vision and demo:
+    
+
+
+
+</p>;
 
 const emmttMemory = (
   <p>
