@@ -20,10 +20,10 @@ const perihelionMore = <p>Helped SirAquakip design the following Pokemon for the
     > Magnut
 
     </a>, {" "}<a
-        href="https://ethereal-gates.fandom.com/wiki/Magnut"
+        href="https://ethereal-gates.fandom.com/wiki/Technut"
         target="_blank"
         rel="noopener noreferrer"
-    > Magnut
+    > Technut
 
     </a>, {" "}<a
         href="https://ethereal-gates.fandom.com/wiki/Magnut"
