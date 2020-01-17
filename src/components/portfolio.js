@@ -44,7 +44,6 @@ const perihelionMore = <p>Aided in design of various scripted sequences in the g
         rel="noopener noreferrer"
     > Taggler
     </a>.
-
 </p>;
 
 const emmttMemory = (
