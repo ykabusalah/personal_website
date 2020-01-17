@@ -6,7 +6,8 @@ import Project from "components/project";
 
 import PokemonLogo from "../img/pokemonlogo";
 
-const perihelionMore = <p>Aided in design of the following Pokemon for the PEG's initial vision and demo:
+const perihelionMore = <p>Aided in design of various scripted sequences in the game via Ruby and the
+    following Pokemon for the PEG's initial vision and demo:
     {" "}<a
         href="https://ethereal-gates.fandom.com/wiki/Gysteam"
         target="_blank"
@@ -43,6 +44,7 @@ const perihelionMore = <p>Aided in design of the following Pokemon for the PEG's
         rel="noopener noreferrer"
     > Taggler
     </a>.
+
 </p>;
 
 const emmttMemory = (
