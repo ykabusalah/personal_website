@@ -73,7 +73,7 @@ function About() {
         <Fragment>
           <Big>
             Hey! My name is Yousef Abu-Salah. I'm a sophomore at Vanderbilt
-            University, and I'm majoring in Computer Science, International Relations, and Education.
+            University, and I'm majoring in Computer Science, International Relations, and Economics/Education.
           </Big>
           <p>
             Exploring the intersections between these disciplines, as well as
