@@ -73,16 +73,14 @@ function About() {
         <Fragment>
           <Big>
             Hey! My name is Yousef Abu-Salah. I'm a sophomore at Vanderbilt
-            University, and I'm majoring in Computer Science, International Relations, and Economics/Education.
+            University, and I'm majoring in Computer Science and Education.
           </Big>
           <p>
             Exploring the intersections between these disciplines, as well as
             the technological future of the world, makes me happy!
           </p>
           <p>
-            Currently, I'm designing a curriculum to target the growing gap in
-            Mississippi computer science education and finally getting into
-            personal investing!
+            Currently, I'm designing a curriculum to target the growing gap in Mississippi computer science education and finally getting into personal investing!    
           </p>
           <p style={{ marginBottom: 0 }}>
             Other than that, I love playing with animals, art (specifically animation!) of all
